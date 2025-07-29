@@ -1,0 +1,101 @@
+ :root{
+    --primary:#9ECAD6 ;
+    --secondary:#748DAE;
+    --tertiary:#F5CBCB;
+    --muted: #FFEAEA;
+ }
+ 
+ 
+ h1,h2,h3,h4{
+    margin: 0;
+ }
+ 
+ 
+ body {
+     margin: 0;
+     width: 100vw;
+     height: 100vh;
+     padding: 0 30px;
+ }
+
+ * {
+     box-sizing: border-box;
+       font-family: "Playfair Display", serif;
+ }
+
+ p {
+     text-align: justify;
+ }
+
+ #cv-container {
+
+     display: flex;
+     flex-direction: column;
+ }
+
+ #apply-role {
+     color: cadetblue;
+ }
+
+ #cv-name {
+     color:var(--secondary);
+     text-align: center;
+
+ }
+
+ #home-address {
+     color: burlywood;
+ }
+
+
+ .education-item .education-uni {
+     font-style: italic;
+
+ }
+
+ .education-item span::nth-child(1) {
+     font-style: normal
+ }
+
+ /* .education-name { */
+     /* font-style: ; */
+
+ /* } */
+
+
+ #basic-info {
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     align-items: center;
+     justify-content: center;
+
+ }
+ #basic-info *{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+ }
+
+ #basic-info a {
+    font-size:medium;
+    text-decoration: none;
+ }
+
+ ul,ol{
+    list-style-type: none;
+    padding: 0;
+ }
+li{
+    margin:  5px 0;
+}
+
+ h3{
+    color: var(--tertiary);
+    border-bottom:var(--tertiary) 2px solid ;
+    width: fit-content;
+    padding-right: 50px;
+    padding-bottom: 2px;
+ }
